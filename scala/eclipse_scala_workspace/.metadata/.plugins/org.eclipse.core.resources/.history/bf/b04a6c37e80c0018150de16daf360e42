@@ -1,0 +1,7 @@
+object Demo extends App {
+  def main(args: Array[String]) = {
+    val t: Thread = Thread.currentThread 
+    val name = t.getName
+    println(s"I am the thread @name")
+  }
+}
