@@ -9,7 +9,7 @@ type notifier interface {
 }
 
 type user struct {
-	name string
+	name  string
 	email string
 }
 
@@ -18,7 +18,7 @@ func (u *user) notify() {
 }
 
 type admin struct {
-	name string
+	name  string
 	email string
 }
 
